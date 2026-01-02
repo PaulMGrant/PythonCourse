@@ -13,11 +13,12 @@ mystring[::2] #Accessing first to ast in a step size of 2
 mystring[2:7:2]#Accessing l to w in steps of 2
 mystring[::-1]#Accessing first to last char and then go through in reverse"""
 
-name ="Paul" #Strings are immutable
+"""name ="Paul" #Strings are immutable
 
 last_letters = name[1:]
 #print ('S' + last_letters)
 print (name.upper()) #makes all upper case
 name.lower() #makes all lower case
 name.split() #separates by white space
-name.split('a')#separates at every 'a'
+name.split('a')#separates at every 'a'"""
+
