@@ -16,4 +16,8 @@ mystring[::-1]#Accessing first to last char and then go through in reverse"""
 name ="Paul" #Strings are immutable
 
 last_letters = name[1:]
-print ('S' + last_letters)
+#print ('S' + last_letters)
+print (name.upper()) #makes all upper case
+name.lower() #makes all lower case
+name.split() #separates by white space
+name.split('a')#separates at every 'a'
