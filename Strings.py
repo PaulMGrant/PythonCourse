@@ -22,3 +22,35 @@ name.lower() #makes all lower case
 name.split() #separates by white space
 name.split('a')#separates at every 'a'"""
 
+#.function() method
+# string here {} then also {}.format('something1', 'something2')
+
+"""print('this is a string {}'.format('INSERTED'))
+
+print('The {} {} {}'.format('fox', 'brown', 'Quick')) #The fox brown Quick
+print('The {2} {1} {0}'.format('fox', 'brown', 'Quick'))#The Quick brown fox
+print('The {0} {0} {0}'.format('fox', 'brown', 'Quick'))#The fox fox fox
+
+print('The {q} {b} {f}'.format(f='fox', b='brown', q='quick'))#The quick brown fox"""
+
+#float formatting follows "{value:width.precision f}"
+"""result = 100/777
+
+print('the result was {r}'.format(r = result))#the result was 0.1287001287001287
+print('the result was {r:1.3}'.format(r = result))#the result was 0.129
+print('the result was {r:10.3}'.format(r = result))#the result was      0.129"""
+
+#format string literals
+"""name = 'Paul'
+age = 47
+print('Hello, my name is {}'.format(name))#Hello, my name is Paul
+print(f'Hello, my name is {name}')#Hello, my name is Paul
+print(f'{name} is {age} years old')#Hello, my name is Paul"""
+
+
+
+
+
+
+
+
